@@ -1,0 +1,40 @@
+.sideWrapeer_title_header {
+  flex-direction: column;
+}
+.sideWrapper_header {
+  margin-bottom: 29px;
+}
+
+.sideWrapeer_title_header-title {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #b3b3b3;
+}
+
+.sideWrapeer_title_header img {
+  width: 32px;
+  height: 32px;
+}
+
+.sideWrapeer_title_description {
+  flex-direction: column;
+  margin-top: 42px;
+}
+
+.sideWrapeer_title_description p {
+  margin-bottom: 18px;
+}
+
+.footerMusic {
+  position: sticky;
+  width: 100%;
+  bottom: 0px;
+}
+
+.albussm {
+  position: relative;
+}

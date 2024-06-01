@@ -1,0 +1,140 @@
+.Muisc_wrapper {
+  color: #b3b3b3;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background: linear-gradient(to bottom, #cade2f 2%, #8b8b3d 5%, #121212 100%);
+  padding-top: 100px;
+}
+
+.header_content {
+  display: flex;
+  padding: 16px;
+  gap: 10px;
+  width: 765px;
+  align-items: center;
+}
+
+.playlist_cover {
+  width: 350px;
+  height: 297px;
+}
+
+.no_image {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.playlist_info {
+  width: 609px;
+}
+
+.playlist_type {
+  font-size: 16px;
+  color: white;
+}
+
+.playlist_name {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.playlist_description {
+  color: white;
+}
+
+.musics {
+  width: 765px;
+  padding: 4px;
+}
+
+.musics_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 8px;
+  border-bottom: 1px solid #b3b3b3;
+  margin-bottom: 22px;
+}
+
+.musics_header_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.music_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.music_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 4px;
+  padding: 3px 2px;
+  transition: background-color 0.3s ease;
+}
+
+.music_card:hover {
+  background-color: #2a2a2a;
+}
+
+.music_card.playing {
+  background-color: #006d2686;
+}
+
+.music_title {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  width: 299px;
+}
+
+.album_cover {
+  width: 52px;
+  height: 52px;
+}
+
+.track_name {
+  color: #fff;
+  font-size: 18px;
+}
+
+.track_artist {
+  font-size: 16px;
+}
+
+.album_type {
+  margin-left: 80px;
+}
+
+.track_duration {
+  color: #fff;
+  font-size: 18px;
+}
+
+.player_wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #181818;
+  padding: 16px;
+}
+
+.playingIndex {
+  width: 48px;
+}
+
+.musicIndex {
+  width: 48px;
+}
